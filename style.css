@@ -1,0 +1,39 @@
+html {
+    background-color: yellow;
+    scroll-behavior: smooth;
+    line-height: 150%; /* this makes the height between the upper and lower line well spaced */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#top {
+    height: 1px;
+    width: 100;
+}
+.main {
+    margin: 50px 25px;
+}
+.main h1 {
+    margin-bottom: 25px;
+}
+.scroll{
+    position: fixed;
+    bottom: 25px;
+    z-index: 99;
+    outline: none;
+    background-color: transparent; /* this was done to make the background text visible to the reader of the blog */
+    cursor: pointer;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+.scroll-top {
+    right: 25px;
+}
+.scroll-down {
+    left: 25px;
+}
+    
